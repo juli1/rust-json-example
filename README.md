@@ -10,6 +10,14 @@ Json data from the web.
 
 In the following example, we crawl data from https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD,EUR
 
+The Json data looks like this:
+```
+{
+   "USD":9237.64,
+   "EUR":7416.1
+}
+```
+
 # Parsing to a data structure
 You can parse the Json data into a specific/formal
 structure. This is shown in the source file
