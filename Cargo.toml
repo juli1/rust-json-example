@@ -1,0 +1,24 @@
+[package]
+name = "rust-json"
+version = "0.1.0"
+authors = ["Julien Delange <delange@amazon.com>"]
+
+[[bin]]
+name = "specialized"
+path = "src/specialized.rs"
+
+[[bin]]
+name = "unspecialized"
+path = "src/unspecialized.rs"
+
+[dependencies]
+http = "0.1.4"
+url = "1.6.0"
+hyper = "0.11.16"
+hyper-tls = "0.1.2"
+futures = "0.1"
+tokio = "0.0.0"
+tokio-core = "0.1.12"
+serde_derive = "1.0"
+serde_json = "1.0"
+serde = "1.0"
